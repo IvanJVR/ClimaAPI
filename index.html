@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+
+<head>
+    <title>Clima</title>
+</head>
+
+<body>
+    <script src="clima.js"></script>
+    <link rel="stylesheet" href="style.css">
+
+    <h1 id="Titulo">Clima</h1>
+
+    <div class="container">
+        <input type="text" placeholder="Ingresa latitud" id="lat">
+        <input type="text" placeholder="Ingresa longitud" id="lon">
+
+        <button id="Buscar" onclick="search()">Buscar</button>
+    </div>
+    <div class="climaCotainer">
+        <h2 id="ciudadNombre"></h2>
+        <div class="climaInfo">
+            <p id="Temperatura">Temperatura: </p>
+            <p id="Description">Descripcion: </p>
+        </div>
+    </div>
+</body>
+
+</html>
